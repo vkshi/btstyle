@@ -1,0 +1,52 @@
+.name {
+	font-family: dazzle-unicase, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 96px;
+	text-align: center;
+}
+
+.navi {
+	font-family: lft-etica-mono, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 36px;
+	text-align: center;
+	padding: 10px;
+	position: absolute;
+	bottom: -60%;
+	left: 0px;
+	right: 0px;
+}
+
+a:link {
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	background-color: transparent;
+	text-decoration: underline
+}
+
+a:hover {
+	color: #666666;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	position: absolute;
+	right: 0px;
+	left: 0px;
+}
+
+.responsive {
+	max-width: 100%;
+	height: auto;
+}
